@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-400: #E8D18C;
+  --color-gold-500: #C5A028;
+  --color-bg-base: #050505;
+  --color-bg-card: #111111;
+  --color-text-dim: #A0A0A0;
+  --font-sans: "Helvetica Neue", Arial, sans-serif;
+  --font-serif: Georgia, ui-serif, serif;
+}
+
+body {
+  background-color: var(--color-bg-base);
+  color: #FFFFFF;
+  overflow-x: hidden;
+}
